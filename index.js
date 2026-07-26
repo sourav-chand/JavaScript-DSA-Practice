@@ -237,4 +237,34 @@
 // 16. LOGICAL OPERATORS (Short-circuit)
 // ============================================================
 
-console.log(false && "Hello");  // false (short-circuits, doesn't evaluate "Hello")
+// console.log(false || "Hello");  // false (short-circuits, doesn't evaluate "Hello")
+
+// import fs from "fs"
+// let n = Number(fs.readFileSync(0, "utf8").trim())
+// console.log(n);
+// let str="sourav chand "
+// console.log(str.length);
+// console.log(str.slice(1,5));
+// console.log(str.split(" "));
+// console.log(str.replace(" ", ""));
+// console.log(str.includes("ch"));
+// console.log(str.replaceAll("ch", "so"));
+// console.log(str.charAt(8));
+// console.log(str.indexOf("h"));
+
+
+//recursion practice
+
+
+// function recursion(n) {
+//     if (n == 0) {
+//         return 1
+//     }
+    
+//     return n * recursion(n-1)
+    
+// }
+// let fac = recursion(5)
+// console.log(fac);
+
+
