@@ -268,3 +268,18 @@
 // console.log(fac);
 
 
+// practice with Object
+const student = {
+    name: "Sourav",
+
+    address: {
+        city: "Kolkata",
+        state: "West Bengal"
+    }
+};
+
+const {
+    address:{city}
+} = student;
+
+console.log(city);
