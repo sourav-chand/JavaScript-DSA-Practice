@@ -269,17 +269,51 @@
 
 
 // practice with Object
-const student = {
-    name: "Sourav",
+// const student = {
+//     name: "Sourav",
 
-    address: {
-        city: "Kolkata",
-        state: "West Bengal"
-    }
-};
+//     address: {
+//         city: "Kolkata",
+//         state: "West Bengal"
+//     }
+// };
 
-const {
-    address:{city}
-} = student;
+// const {
+//     address:{city}
+// } = student;
 
-console.log(city);
+// console.log(city);
+
+// let x = 10;
+
+// function test(){
+
+//     let x = 20;
+
+//     console.log(x);
+
+// }
+
+// test();
+
+// console.log(x);
+
+
+//closer
+// let closer = () =>{
+//     let a =0
+//     return ()=>{
+//         a++
+//         console.log(a);
+        
+//     }
+// }
+// let test = closer()
+// test()
+// test()
+// test()
+// test()
+
+
+
+
