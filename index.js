@@ -331,11 +331,11 @@
 
 // user.greet();
 
-let a = function(){
-    console.log("hello");
+// let a = function(){
+//     console.log("hello");
     
-}
-console.log(typeof a);
+// }
+// console.log(typeof a);
 
 
 
