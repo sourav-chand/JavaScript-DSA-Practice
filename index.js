@@ -316,4 +316,27 @@
 
 
 
+//this keyword
+// const user = {
+
+//     name:"Sourav",
+
+//     greet(){
+
+//         console.log(this.name);
+
+//     }
+
+// };
+
+// user.greet();
+
+let a = function(){
+    console.log("hello");
+    
+}
+console.log(typeof a);
+
+
+
 
