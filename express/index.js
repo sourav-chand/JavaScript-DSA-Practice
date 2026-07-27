@@ -7,6 +7,8 @@ app.get("/",(req, res)=>{
 })
 app.post("/", (req, res)=>{
     let q = req.body ? req.body.test : "No test data sent"
+    console.log(q);
+    
      res.status(200).json({ received: q })
 })
 app.listen(3000,()=> {
