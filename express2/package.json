@@ -1,0 +1,17 @@
+{
+  "name": "express-route-order",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb-memory-server": "^11.2.0",
+    "mongoose": "^9.8.1"
+  },
+  "allowScripts": {
+    "mongodb-memory-server@11.2.0": true
+  }
+}
